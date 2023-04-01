@@ -1,0 +1,10 @@
+.courcesPageThirdBlock {
+  display: flex;
+  gap: 90px;
+  background-color: var(--color-green);
+}
+
+.courcesPageThirdBlockText {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,12 @@
+.faqTableBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 120px auto;
+}
+
+.faqFirstBlock {
+  width: 830px;
+  padding: 0 30px 30px;
+}

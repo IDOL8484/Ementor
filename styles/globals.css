@@ -1,8 +1,5 @@
-@import url("./mainPage/mainPageFirstBlock.css");
-@import url("./mainPage/mainPageSecondBlock.css");
-@import url("./mainPage/mainPageThirdBlock.css");
-@import url("./mainPage/mainPageFourthBlock.css");
-@import url("./mainPage/mainPageFifthBlock.css");
+@import url("./mainPage/mainPage.css");
+@import url("./courcesPage/courcesPage");
 
 :root {
   --color-green: #10b582;

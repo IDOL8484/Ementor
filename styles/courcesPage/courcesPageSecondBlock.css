@@ -1,0 +1,14 @@
+.courcesPageSecondBlock {
+  margin: 40px 135px 120px;
+}
+
+.courcesPageSecondBlockText {
+  padding-right: 300px;
+  padding-bottom: 80px;
+}
+.courcesPageSecondBlockText p {
+  padding-bottom: 15px;
+}
+.courcesPageSecondBlockText p:first-child {
+  padding-bottom: 25px;
+}

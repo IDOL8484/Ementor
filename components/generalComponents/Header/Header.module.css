@@ -1,32 +1,32 @@
-.header li {
-  color: var(--color-dark-blue);
-}
-
 .headerGeneral {
   display: flex;
   width: 100%;
+  padding: 40px 135px 30px;
   justify-content: center;
-  background-color: #10b582;
+  background-color: var(--color-green);
 }
 .headerSimple {
   display: flex;
   width: 100%;
+  padding: 40px 135px 30px;
   justify-content: space-between;
 }
 
 /*Меню навигации*/
-
-.mainMenu {
+.nav {
   display: flex;
   justify-content: space-between;
   min-width: 600px;
-  padding: 40px 0 30px;
 }
-.mainMenu a {
+.nav a {
   padding-bottom: 8px;
   color: var(--color-white);
 }
-.mainMenu a:hover {
+.nav a:hover {
   border-bottom: 2px dashed #fa9f42;
   margin-bottom: -2px;
+}
+
+.headerSimple .nav a {
+  color: var(--color-dark-blue);
 }

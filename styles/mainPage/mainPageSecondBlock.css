@@ -18,6 +18,9 @@
 .secondBlockText Button {
   margin-top: 50px;
 }
+.secondBlockText p {
+  margin-bottom: 20px;
+}
 
 .pictures {
   display: grid;

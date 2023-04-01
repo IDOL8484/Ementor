@@ -10,12 +10,13 @@ import { Footer } from "@/components/generalComponents/Footer/Footet";
 import { SocialIcons } from "@/components/SocialIcons/SocialIcons";
 import { A } from "@/components/simpleComponents/A/A";
 import { Header } from "@/components/generalComponents/Header/Header";
+import { BackPicText } from "@/components/BackPicText/BackPicText";
 
 export default function Home() {
   return (
     <>
       {/*Меню навигации - Header*/}
-      <Header pageTheme="simple" />
+      <Header pageTheme="general" />
 
       {/*Первый блок*/}
 
@@ -227,24 +228,13 @@ export default function Home() {
 
       {/*Пятый блок*/}
 
-      <div
-        className="fifthBlock"
-        style={{
-          backgroundImage: 'url("./otherPics/photoNotebook.png")',
-        }}
-      >
-        <div></div>
-        <div className="fifthBlockText">
-          <Typography size="header" lineHeight="lh69">
-            Присоединяйтесь к E-Mentor сейчас
-          </Typography>
-          <Typography>
-            Выберите подходящий тариф и формат обучения, пройдите 2 урока и мы
-            подарим вам дополнительные лекции по любому направлению бесплатно!
-          </Typography>
-          <Button>Выбрать тариф</Button>
-        </div>
-      </div>
+      <BackPicText
+        urlImg='url("./otherPics/photoNotebook.png")'
+        header="Присоединяйтесь к E-Mentor сейчас"
+        text="Выберите подходящий тариф и формат обучения, пройдите 2 урока и мы
+          подарим вам дополнительные лекции по любому направлению бесплатно!"
+        buttonText="Выбрать тариф"
+      />
 
       {/*Футер*/}
       <Footer />

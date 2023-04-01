@@ -40,8 +40,6 @@
 .header {
   font-size: 58px;
   font-weight: 500;
-
-  margin-bottom: 20px;
 }
 
 .lh14 {
@@ -53,8 +51,14 @@
 .lh18 {
   line-height: 18.2px;
 }
+.lh20 {
+  line-height: 20.8px;
+}
 .lh24 {
   line-height: 24px;
+}
+.lh28 {
+  line-height: 28px;
 }
 .lh58 {
   line-height: 58px;

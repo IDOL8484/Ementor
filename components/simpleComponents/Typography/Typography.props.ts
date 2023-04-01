@@ -4,5 +4,13 @@ export interface TypographyProps {
   className?: string;
   position?: "center" | "left" | "right";
   size?: "s14" | "s16" | "s14" | "s22" | "header";
-  lineHeight?: "lh14" | "lh16" | "lh18" | "lh24" | "lh58" | "lh69";
+  lineHeight?:
+    | "lh14"
+    | "lh16"
+    | "lh18"
+    | "lh20"
+    | "lh24"
+    | "lh28"
+    | "lh58"
+    | "lh69";
 }

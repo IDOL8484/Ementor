@@ -4,7 +4,7 @@
   display: flex;
   gap: 44px;
   background-color: var(--color-green);
-  padding: 60px 135px 120px;
+  padding: 30px 135px 120px;
 }
 
 .socialIcons {
